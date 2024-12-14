@@ -1,3 +1,5 @@
+deploy - https://mi8mto.github.io/React-cooking-app-task/
+
 # React + Vite
 
 init
