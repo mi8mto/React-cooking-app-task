@@ -1,5 +1,12 @@
 # React + Vite
 
+1. npm install gh-pages --save-dev
+2. в package.json в scripts после "dev" add
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist",
+3. в vite.config add
+   base: '/папку и именем GitHub',
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
